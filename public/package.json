@@ -1,0 +1,25 @@
+{
+  "name": "coderfriends",
+  "version": "1.0.0",
+  "description": "<img src=\"https://s3.amazonaws.com/devmountain/www/img/logowhiteblue.png\" width=\"250\" align=\"right\">",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agkm10/CoderFriends.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agkm10/CoderFriends/issues"
+  },
+  "homepage": "https://github.com/agkm10/CoderFriends#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "express-session": "^1.15.1",
+    "passport": "^0.3.2",
+    "passport-github": "^1.1.0"
+  }
+}

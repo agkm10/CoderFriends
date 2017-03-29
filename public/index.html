@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="githubApp">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body ng-controller="mainCtrl">
+    <nav>
+        <div class="nav-wrapper brown">
+            <a href="#" class="brand-logo">Coder Friends Project</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="sass.html">Materialize</a></li>
+                <li><a href="badges.html">Is</a></li>
+                <li><a href="collapsible.html">Amazing</a></li>
+            </ul>
+        </div>
+    </nav>
+    <ui-view></ui-view>
+
+
+    <!--Libraries-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
+
+    <!--App JS Files-->
+    <script src="./app.js"></script>
+    <script src="./services/github-service.js"></script>
+    <script src="./controllers/mainCtrl.js"></script>
+    <script src="./services/github-service.js"></script>
+</body>
+
+</html>
